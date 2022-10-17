@@ -4,15 +4,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+   padding: 5px 10px;
 }
 
+@media screen and (max-width:600px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header a{
+        font-size: 10px;
+    }
+}
 .header a{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 17px;
-    margin-left: 36px;
+    margin-left: 30px;
 }
 .header a:hover{
     color: orange;
